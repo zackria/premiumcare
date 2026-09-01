@@ -1,0 +1,10 @@
+# Public pages and assets may be crawled by search engines and AI assistants.
+User-agent: *
+Allow: /
+
+# Internal source material is not part of the public website.
+Disallow: /Reference/
+Disallow: /.claude/
+
+# Add the absolute Sitemap URL here after the production domain is connected.
+# Sitemap: https://your-domain.example/sitemap.xml

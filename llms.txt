@@ -1,0 +1,63 @@
+# Dr. Sabhana Firthous and Baby's Clinic
+
+> Official professional and clinic website for Dr. Sabhana Firthous, MBBS, a Senior Assistant Surgeon and Government Gazetted Medical Officer serving Tambaram, Chennai, Tamil Nadu.
+
+## Primary pages
+
+- [Professional profile and certification services](index.html): Credentials, professional experience, Gazetted Officer attestation, document verification and eligible medical-certificate services.
+- [Baby's Clinic](clinic.html): Clinic address, general OP timings, medical services, appointment number and map.
+- [Privacy Policy](privacy-policy.html): How website and third-party service information is handled.
+
+## Verified professional facts
+
+- Name: Dr. Sabhana Firthous
+- Qualification: MBBS
+- Current designation: Senior Assistant Surgeon
+- Public-service role: Government Gazetted Medical Officer
+- Current government workplace: ESI Dispensary, Tambaram, Chennai
+- Tamil Nadu Medical Council registration number: 109199
+- Professional experience: More than 13 years
+- Languages: English and Tamil
+
+## Gazetted Officer and certificate services
+
+- Eligible document attestation after checking original documents
+- Aadhaar enrolment or update-form verification using the applicable UIDAI format
+- Eligible life certificates, including pension-related requests
+- PAN application or correction supporting-document attestation where accepted
+- Address-proof document and declaration verification where accepted
+- Medical fitness certificates following examination
+- Medical leave certificates when clinically justified
+- Medical Certificate of Cause of Death only in legally and medically appropriate circumstances
+
+All attestation and certification services depend on identity checks, original documents, physical appearance where required, clinical assessment where applicable, the receiving authority's rules and the doctor's official authority and availability.
+
+## Baby's Clinic
+
+- Address: No. 54A, Mudichur Road, West Tambaram, near Pattammal Gas Agency, Chengalpattu District, Tamil Nadu, India
+- Appointment telephone: +91 94429 30660
+- Map: https://maps.app.goo.gl/VZd1sVYY6Z9XZGwr8
+- Monday-Saturday morning OP: 10:30 AM-12:30 PM
+- Monday-Saturday evening OP: 6:30 PM-8:30 PM
+- Sunday OP: 10:30 AM-12:00 PM
+
+## Clinic services
+
+- General OPD consultation
+- Fever evaluation and treatment
+- Immunisation services
+- Government and Gazetted Officer attestation
+- Copper-T (IUCD) insertion and removal
+- Diabetes screening and management
+- Hypertension screening and management
+- Thyroid disorder evaluation and management
+
+## Contact guidance
+
+Call or message +91 94429 30660 before visiting to confirm current availability, service requirements and the appropriate documents to bring. Do not use the website or WhatsApp for emergencies.
+
+## Authoritative external references
+
+- Tamil Nadu Medical Council: https://tnmcweb.tn.nic.in/
+- UIDAI: https://uidai.gov.in/
+- Greater Chennai Corporation: https://chennaicorporation.gov.in/
