@@ -31,7 +31,7 @@
         "@type": ["MedicalClinic", "LocalBusiness"],
         "name": "Baby’s Clinic",
         "description": "General outpatient consultation and primary medical care clinic in West Tambaram led by Dr. Sabhana Firthous, MBBS.",
-        "telephone": "+919442930660",
+        "telephone": "+917667017100",
         "address": {
             "@type": "PostalAddress",
             "streetAddress": "No. 54A, Mudichur Road, Near Pattammal Gas Agency",
@@ -108,7 +108,7 @@
                 <li><a href="index.html">Profile</a></li>
                 <li><a href="#timings">OP Timings</a></li>
                 <li><a href="#clinic-services">Services</a></li>
-                <li><a class="nav-contact" href="tel:+919442930660">Book appointment</a></li>
+                <li><a class="nav-contact js-book" href="tel:+917667017100">Book appointment</a></li>
             </ul>
         </nav>
     </header>
@@ -121,9 +121,9 @@
                 <p class="clinic-doctor">Dr. Sabhana Firthous, MBBS</p>
                 <p class="clinic-hero-description">Accessible general consultation, preventive care, ongoing health management and eligible certification services for individuals and families.</p>
                 <div class="clinic-actions">
-                    <a class="btn clinic-btn-primary" href="tel:+919442930660">
+                    <a class="btn clinic-btn-primary js-book" href="tel:+917667017100">
                         <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.9.33 1.78.62 2.63a2 2 0 0 1-.45 2.11L8 9.73a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.85.29 1.73.5 2.63.62A2 2 0 0 1 22 16.92Z"/></svg>
-                        Call for appointment
+                        Book appointment
                     </a>
                     <a class="btn clinic-btn-secondary" href="https://maps.app.goo.gl/VZd1sVYY6Z9XZGwr8" target="_blank" rel="noopener noreferrer">
                         <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>
@@ -160,7 +160,7 @@
                 </address>
                 <div class="clinic-contact-row">
                     <span>Appointment number</span>
-                    <a href="tel:+919442930660">+91 94429 30660</a>
+                    <a href="tel:+917667017100">+91 76670 17100</a>
                 </div>
                 <a class="clinic-map-link" href="https://maps.app.goo.gl/VZd1sVYY6Z9XZGwr8" target="_blank" rel="noopener noreferrer">Open in Google Maps <span aria-hidden="true">↗</span></a>
             </div>
@@ -254,8 +254,8 @@
                 <p>Call before visiting to confirm the current consultation schedule and service availability.</p>
             </div>
             <div class="clinic-cta-actions">
-                <a class="btn clinic-btn-primary" href="tel:+919442930660">Call +91 94429 30660</a>
-                <a class="btn clinic-btn-secondary" href="https://wa.me/919442930660" target="_blank" rel="noopener noreferrer">Message on WhatsApp</a>
+                <a class="btn clinic-btn-primary js-book" href="tel:+917667017100">Book appointment</a>
+                <a class="btn clinic-btn-secondary" href="https://wa.me/917667017100" target="_blank" rel="noopener noreferrer">Message on WhatsApp</a>
             </div>
         </section>
     </main>
@@ -269,5 +269,34 @@
         </p>
         <p class="footer-meta">No. 54A, Mudichur Road, West Tambaram, Tamil Nadu</p>
     </footer>
+    <dialog class="book-dialog" id="book-dialog" aria-labelledby="book-title">
+        <form method="dialog" class="book-close-form">
+            <button class="book-close" aria-label="Close">&times;</button>
+        </form>
+        <p class="section-eyebrow">Baby’s Clinic, West Tambaram</p>
+        <h2 id="book-title">How would you like to book?</h2>
+        <p class="book-sub">Choose what is easiest for you. We reply on WhatsApp typically within 2 hours.</p>
+        <div class="book-options">
+            <a class="book-option" href="tel:+917667017100">
+                <span class="book-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+                <span class="book-text"><strong>Call on phone</strong><small>Speak to us directly on +91 76670 17100</small></span>
+                <span class="book-arrow" aria-hidden="true">→</span>
+            </a>
+            <a class="book-option book-option-wa" href="https://wa.me/917667017100" target="_blank" rel="noopener noreferrer">
+                <span class="book-icon"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93a7.898 7.898 0 0 0-2.327-5.607zm-5.607 12.19h-.003a6.585 6.585 0 0 1-3.355-.92l-.24-.143-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/></svg></span>
+                <span class="book-text"><strong>Call on WhatsApp</strong><small>Opens WhatsApp. Tap the call icon at the top.</small></span>
+                <span class="book-arrow" aria-hidden="true">→</span>
+            </a>
+            <a class="book-option book-option-wa" href="https://wa.me/917667017100?text=Hello%20Dr.%20Sabhana%2C%20I%20would%20like%20to%20book%20an%20appointment%20at%20Baby%E2%80%99s%20Clinic." target="_blank" rel="noopener noreferrer">
+                <span class="book-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span>
+                <span class="book-text"><strong>Chat on WhatsApp</strong><small>Start a message with your request ready to send</small></span>
+                <span class="book-arrow" aria-hidden="true">→</span>
+            </a>
+        </div>
+        <p class="book-hours"><strong>OP timings:</strong> Mon-Sat 10:30 AM-12:30 PM &amp; 6:30-8:30 PM · Sun 10:30 AM-12:00 PM</p>
+        <p class="book-hours">Not for emergencies. In an emergency, go to the nearest hospital.</p>
+    </dialog>
+    <script src="scripts/booking.js" defer></script>
+    <script src="scripts/nav.js" defer></script>
 </body>
 </html>

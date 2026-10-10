@@ -94,7 +94,7 @@ Shabana Website/
 
 ## 🌐 External Integrations
 
-- **WhatsApp API**: Direct messaging link (+91 94429 30660)
+- **WhatsApp API**: Direct messaging link (+91 76670 17100)
 - **Google Maps**: Clinic location and directions
 - **Google Fonts**: Web typography
 - **Schema.org Markup**: SEO and rich snippets
@@ -131,7 +131,7 @@ Shabana Website/
 
 ## 📧 Contact Information
 
-- **WhatsApp**: +91 94429 30660
+- **WhatsApp**: +91 76670 17100
 - **Location**: Baby's Clinic, No. 54A, Mudichur Road, West Tambaram, Chennai
 - **TNMC Registration**: 109199
 - **Professional**: Senior Assistant Surgeon, ESI Dispensary, Tambaram
