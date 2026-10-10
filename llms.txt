@@ -4,9 +4,9 @@
 
 ## Primary pages
 
-- [Professional profile and certification services](index.html): Credentials, professional experience, Gazetted Officer attestation, document verification and eligible medical-certificate services.
-- [Baby's Clinic](clinic.html): Clinic address, general OP timings, medical services, appointment number and map.
-- [Privacy Policy](privacy-policy.html): How website and third-party service information is handled.
+- [Professional profile and certification services](https://premiumlifecare.in/): Credentials, professional experience, Gazetted Officer attestation, document verification and eligible medical-certificate services.
+- [Baby's Clinic](https://premiumlifecare.in/clinic.html): Clinic address, general OP timings, medical services, appointment number and map.
+- [Privacy Policy](https://premiumlifecare.in/privacy-policy.html): How website and third-party service information is handled.
 
 ## Verified professional facts
 

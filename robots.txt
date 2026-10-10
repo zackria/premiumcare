@@ -6,5 +6,4 @@ Allow: /
 Disallow: /Reference/
 Disallow: /.claude/
 
-# Add the absolute Sitemap URL here after the production domain is connected.
-# Sitemap: https://your-domain.example/sitemap.xml
+Sitemap: https://premiumlifecare.in/sitemap.xml

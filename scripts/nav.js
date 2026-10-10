@@ -20,7 +20,6 @@
         header.classList.toggle('nav-open', open);
         toggle.setAttribute('aria-expanded', open);
         toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
-        document.body.classList.toggle('nav-locked', open);
     };
 
     toggle.addEventListener('click', function () {
@@ -38,7 +37,23 @@
         }
     });
 
-    window.matchMedia('(min-width: 769px)').addEventListener('change', function (e) {
-        if (e.matches) { set(false); }
+    document.addEventListener('click', function (e) {
+        if (!nav.contains(e.target)) { set(false); }
     });
+
+    window.addEventListener('pageshow', function () { set(false); });
+
+    /* Keep JavaScript and CSS breakpoints in sync. */
+    var desktop = window.matchMedia('(min-width: 1101px)');
+    var sync = function () {
+        toggle.style.display = desktop.matches ? 'none' : '';
+        if (desktop.matches) { set(false); }
+    };
+    sync();
+    if (desktop.addEventListener) {
+        desktop.addEventListener('change', sync);
+    } else {
+        desktop.addListener(sync);
+    }
+    header.classList.add('nav-ready');
 }());

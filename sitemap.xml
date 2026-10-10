@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    <url>
+        <loc>https://premiumlifecare.in/</loc>
+        <lastmod>2026-10-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        <image:image><image:loc>https://premiumlifecare.in/images/dr-sabhana-firthous.jpg</image:loc><image:title>Dr. Sabhana Firthous, MBBS, Gazetted Officer and doctor in West Tambaram</image:title></image:image>
+    </url>
+    <url>
+        <loc>https://premiumlifecare.in/clinic.html</loc>
+        <lastmod>2026-10-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <image:image><image:loc>https://premiumlifecare.in/images/clinic_image_1.jpeg</image:loc><image:title>Baby’s Clinic reception area, West Tambaram</image:title></image:image>
+        <image:image><image:loc>https://premiumlifecare.in/images/clinic_image_2.jpeg</image:loc><image:title>Consultation room at Baby’s Clinic</image:title></image:image>
+        <image:image><image:loc>https://premiumlifecare.in/images/clinic_image_3.jpeg</image:loc><image:title>Waiting area at Baby’s Clinic</image:title></image:image>
+    </url>
+    <url>
+        <loc>https://premiumlifecare.in/privacy-policy.html</loc>
+        <lastmod>2026-10-10</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.2</priority>
+    </url>
+</urlset>
