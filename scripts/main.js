@@ -17,7 +17,7 @@
 
     /* Scroll reveal */
     var revealTargets = document.querySelectorAll(
-        '.content-section, .metrics-section, .stat-card, .service-card, .checklist-item, .visit-guide, .service-footer-grid'
+        '.stat-card, .service-card, .experience-card, .faq-heading'
     );
     if ('IntersectionObserver' in window && !reduceMotion) {
         var revealObserver = new IntersectionObserver(function (entries) {
@@ -31,7 +31,7 @@
         }, { threshold: 0, rootMargin: '0px 0px -8% 0px' });
         revealTargets.forEach(function (el, i) {
             el.classList.add('reveal');
-            if (el.classList.contains('service-card') || el.classList.contains('stat-card')) {
+            if (el.matches('.service-card, .stat-card')) {
                 el.style.transitionDelay = (i % 3) * 70 + 'ms';
             }
             revealObserver.observe(el);

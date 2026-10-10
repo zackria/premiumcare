@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Medical care</title>
+  <rect width="64" height="64" rx="14" fill="#0F172A"/>
+  <path d="M25 14h14v11h11v14H39v11H25V39H14V25h11z" fill="#FFFFFF"/>
+  <circle cx="49" cy="15" r="6" fill="#10B981"/>
+</svg>
