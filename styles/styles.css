@@ -4043,3 +4043,8 @@
                 page-break-inside: avoid;
             }
         }
+
+/* Email addresses stay within narrow contact cards. */
+.contact-email {
+    overflow-wrap: anywhere;
+}
