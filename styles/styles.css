@@ -4083,6 +4083,30 @@
             }
         }
 
+        /* Location map inside the contact section */
+        .contact-section .home-location {
+            grid-column: 1 / -1;
+            margin: 0;
+            color: var(--color-text-body);
+        }
+
+        .contact-section .home-location a:not(.btn) {
+            color: var(--color-accent);
+        }
+
+        .contact-section .home-location .clinic-contact-row a {
+            color: var(--color-heading);
+        }
+
+        .contact-section .home-location .btn {
+            color: #fff;
+        }
+
+        .contact-section .home-location h2,
+        .contact-section .home-location strong {
+            color: var(--color-heading);
+        }
+
         /* Print */
         @media print {
             header, footer, .cta-buttons {
