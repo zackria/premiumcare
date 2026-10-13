@@ -4117,8 +4117,9 @@
             color: var(--color-heading);
         }
 
-        .contact-section .home-location .btn {
-            color: #fff;
+        .contact-section .home-location .btn-primary,
+        .contact-section .home-location .btn-primary:hover {
+            color: #08212C;
         }
 
         .contact-section .home-location h2,
