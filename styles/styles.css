@@ -4033,6 +4033,56 @@
             }
         }
 
+        /* Home page location map */
+        .home-location {
+            margin-top: 1.5rem;
+        }
+
+        .home-hours {
+            color: var(--color-heading);
+            font-family: var(--font-heading);
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        .home-location-actions {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 1rem 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .home-location-actions .clinic-map-link {
+            margin-top: 0;
+        }
+
+        /* Gallery: wide signboard photos */
+        .gallery-image-wide img {
+            height: auto;
+        }
+
+        @media (min-width: 901px) {
+            .clinic-gallery-grid {
+                grid-template-columns: repeat(6, minmax(0, 1fr));
+            }
+
+            .clinic-gallery-grid .gallery-image {
+                grid-column: span 2;
+            }
+
+            .clinic-gallery-grid .gallery-image-wide {
+                grid-column: span 3;
+                align-self: start;
+            }
+        }
+
+        @media (max-width: 900px) {
+            .clinic-gallery-grid .gallery-image-wide {
+                grid-column: 1 / -1;
+            }
+        }
+
         /* Print */
         @media print {
             header, footer, .cta-buttons {

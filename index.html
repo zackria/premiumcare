@@ -749,12 +749,12 @@
 
     <header>
         <nav aria-label="Main navigation">
-            <div class="logo">
+            <a class="logo" href="index.html" aria-label="Dr. Sabhana Firthous homepage">
                 <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
                 </svg>
                 Dr. Sabhana Firthous
-            </div>
+            </a>
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
@@ -763,7 +763,7 @@
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#credentials">Credentials</a></li>
                 <li><a href="#approach">Approach</a></li>
-                <li><a href="#contact" class="nav-contact">Contact</a></li>
+                <li><a class="nav-contact" href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -1600,6 +1600,41 @@
             </p>
         </section>
 
+        <section id="location" class="clinic-location-section home-location" aria-labelledby="location-heading">
+            <div class="clinic-address-card">
+                <p class="section-eyebrow">Find Baby’s Clinic</p>
+                <h2 id="location-heading">Visit us in West Tambaram</h2>
+                <address>
+                    <strong>Baby’s Clinic</strong>
+                    <span>Dr. Sabhana Firthous, MBBS</span>
+                    <span>No. 54A, Mudichur Road, West Tambaram</span>
+                    <span>Near Pattammal Gas Agency</span>
+                    <span>Chengalpattu District, Tamil Nadu</span>
+                </address>
+                <div class="clinic-contact-row">
+                    <span>OP timings</span>
+                    <strong class="home-hours">Mon–Sat 10:30 AM–12:30 PM &amp; 6:30–8:30 PM<br>Sun 10:30 AM–12:00 PM</strong>
+                </div>
+                <div class="clinic-contact-row">
+                    <span>Appointment number</span>
+                    <a href="tel:+917667017100">+91 76670 17100</a>
+                </div>
+                <div class="home-location-actions">
+                    <a class="btn btn-primary" href="https://maps.app.goo.gl/VZd1sVYY6Z9XZGwr8" target="_blank" rel="noopener noreferrer">Get directions</a>
+                    <a class="clinic-map-link" href="clinic.html">Clinic details and FAQs <span aria-hidden="true">→</span></a>
+                </div>
+            </div>
+            <div class="clinic-map-wrap">
+                <iframe
+                    title="Map showing Baby’s Clinic on Mudichur Road, West Tambaram"
+                    src="https://www.google.com/maps?q=No.%2054A%2C%20Mudichur%20Road%2C%20Near%20Pattammal%20Gas%20Agency%2C%20West%20Tambaram%2C%20Tamil%20Nadu&amp;output=embed"
+                    loading="lazy"
+                    allowfullscreen
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+
     </main>
 
     <footer>
@@ -1612,7 +1647,7 @@
             <a href="privacy-policy.html">Privacy Policy</a>
         </p>
         <p class="footer-meta">
-            ESI Dispensary, Tambaram, Chennai, Tamil Nadu, India
+            Baby's Clinic, Tambaram, Chennai, Tamil Nadu, India
         </p>
     </footer>
     <a class="fab-whatsapp" href="https://wa.me/917667017100" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
